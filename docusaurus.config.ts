@@ -36,10 +36,6 @@ const config: Config = {
         docs: {
           routeBasePath: '/',
           sidebarPath: './sidebars.ts',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/RuneDistro/rune-distro-docs',
         },
         blog: false,
         theme: {
@@ -63,7 +59,7 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Introdução',
+          label: 'Documentação',
         },
         {
           href: 'https://github.com/RuneDistro',
@@ -85,7 +81,7 @@ const config: Config = {
           ],
         },
         {
-          title: 'Community',
+          title: 'Comunidade',
           items: [
 
             {
