@@ -8,7 +8,7 @@ slug: /
 # Introdução
 
 Aqui será onde iremos documentar todo o nosso processo de construção de software, tanto o front-end, as documentações e
-os provavéis requisitos funcionais e não-funcionais.
+os prováveis requisitos funcionais e não-funcionais.
 
 ## Como documentar pelo Docusaurus
 
@@ -34,7 +34,7 @@ Basicamente, as pages são páginas distintas de conteúdo, podemos criar uma p�
 As docs são, justamente, os conteúdos de documentação, como esta página. Ao criar uma nova doc, o Docusaurus irá criar automaticamente
 um slug no sidebar referente ao doc criado. Como esta doc é intitulada de _Introdução_, o sidebar na esquerda o referencia de tal forma.
 
-Os blogs são parecidos com os docs, mas com estilização e funcionalides voltadas para contrução de blogs, também não será necessário.
+Os blogs são parecidos com os docs, mas com estilização e funcionalidades voltadas para construção de blogs, também não será necessário.
 
 ## Criando uma doc
 
@@ -77,7 +77,7 @@ e o Heading 1 também sendo _Introdução_.
 /docs > teste > compras.md
 ```
 
-Com isto feito, você já terá o nesting funcionando, mas talvez não do jeito que você queira, pode haver algumas inconsitências.
+Com isto feito, você já terá o nesting funcionando, mas talvez não do jeito que você queira, pode haver algumas inconsistências.
 
 Como percebeu, no sidebar ele ficará com o nome da pasta como referência, neste caso, _teste_. Para mudar este nome e algumas
 outras coisas é necessário criar um arquivo de configuração a parte. Dentro da pasta, crie um arquivo `_category_.json`, nele
@@ -108,5 +108,5 @@ No fim, seus arquivos irão se parecer assim:
 
 ## Conclusão
 
-Basicamente é isto, agrupei os pricinpais pontos para a criação de docs nesta seção. Novamente, caso tenha alguma dúvida, utilize
-a documumentação oficial para sanar tudo isso. [Documentação do Docusauros](https://docusaurus.io/docs).
+Basicamente é isto, agrupei os principais pontos para a criação de docs nesta seção. Novamente, caso tenha alguma dúvida, utilize
+a documentação oficial para sanar tudo isso. [Documentação do Docusauros](https://docusaurus.io/docs).

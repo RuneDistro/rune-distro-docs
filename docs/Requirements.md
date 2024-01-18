@@ -1,6 +1,6 @@
 ---
 id: 'rq'
-sidebar_postition: 3
+sidebar_position: 3
 title: 'Requisitos do Sistema'
 slug: /requirements
 ---
