@@ -1,8 +1,8 @@
 ---
-id: 'rqn'
+id: 'non-functional-requirements'
 sidebar_position: 2
 title: 'Requisitos Não Funcionais'
-slug: /system-requierements-n
+slug: /system-requirements/non-functional-requirements
 ---
 
 # Requisitos Não Funcionais

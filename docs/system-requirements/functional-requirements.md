@@ -1,13 +1,14 @@
 ---
-id: 'rq'
+id: 'functional-requirements'
 sidebar_position: 1
 title: 'Requisitos Funcionais'
-slug: /system-requierements
+slug: /system-requirements/functional-requirements
 ---
 
 # Requisitos Funcionais
 
 # <font color="red"># APENAS EXEMPLOS.</font>
+
 | # | Requisito                           | Descrição                                                                                                     |
 |---|-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | 1 | **Cadastro de Artistas:**            | O sistema deve permitir que novos artistas se cadastrem fornecendo informações como nome, e-mail, senha e detalhes do perfil artístico. |

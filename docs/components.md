@@ -1,6 +1,6 @@
 ---
 id: 'components'
-sidebar_position: 2
+sidebar_position: 3
 title: 'Componentes com React'
 slug: /react-components
 ---
