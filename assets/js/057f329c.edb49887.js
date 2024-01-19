@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocasauro_teste=self.webpackChunkdocasauro_teste||[]).push([[324],{9195:(e,t,s)=>{s.r(t),s.d(t,{default:()=>c});var r=s(6040),a=s(5893);function c(){return(0,a.jsx)(r.Z,{children:(0,a.jsx)("div",{className:"text-2xl mt-4 text-center",children:"Hello World"})})}}}]);
