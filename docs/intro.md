@@ -22,7 +22,7 @@ Partindo do pressuposto de que você esteja na branch correta e atualizou seu re
 
 Você deve encontrar uma organização de pastas similar a esta:
 
-![exemplo1-print](../static/img/docusaurus-file-print.png)
+![exemplo1-print](../static/img/content/docusaurus-file-print.png)
 
 Há três maneiras de criarmos conteúdo para a documentação: com "docs", com "pages" e com "blog". Basicamente, as "pages" são páginas distintas de conteúdo, podemos criar uma página de "sobre", por exemplo, mas não será necessário.
 
@@ -98,7 +98,7 @@ Segue um exemplo abaixo:
 
 No fim, seus arquivos irão se parecer assim:
 
-![exemplo2-print](../static/img/docusauros-newFile-print.png)
+![exemplo2-print](../static/img/content/docusauros-newFile-print.png)
 
 ## Conclusão
 
