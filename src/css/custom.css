@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  /* New colors */
+  --ifm-color-primary: #0a7194;
+  --ifm-color-primary-dark: #096685;
+  --ifm-color-primary-darker: #08607e;
+  --ifm-color-primary-darkest: #074f68;
+  --ifm-color-primary-light: #0b7ca3;
+  --ifm-color-primary-lighter: #0b82aa;
+  --ifm-color-primary-lightest: #0d93c0;
+
+  /* Old colors */
+  /* --ifm-color-primary: #2e8555;
+  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary-darker: #277148;
+  --ifm-color-primary-darkest: #205d3b;
+  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-lightest: #3cad6e; */
+
+
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  /* New colors */
+  --ifm-color-primary: #0bb2ea;
+  --ifm-color-primary-dark: #0aa0d3;
+  --ifm-color-primary-darker: #0997c7;
+  --ifm-color-primary-darkest: #087da4;
+  --ifm-color-primary-light: #19bdf4;
+  --ifm-color-primary-lighter: #25c1f5;
+  --ifm-color-primary-lightest: #48cbf6;
+
+  /* Old colors */
+  /* --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf; */
+
+
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Self changed color scheme */
+html[data-theme='dark'] {
+  --ifm-background-color: #0F0F0F;
+  --ifm-background-surface-color: var(--ifm-background-color);
+  --ifm-footer-background-color: #151515;
+}
+
+.navbar {
+  border-bottom: 1px solid var(--ifm-toc-border-color);
+}
+
+html[data-theme='light'] .footer {
+  border-top: 1px solid var(--ifm-toc-border-color);
+  --ifm-footer-background-color: #FFF;
+  --ifm-footer-color: #101010;
+  --ifm-footer-title-color: #101010;
+  --ifm-footer-link-color: #333;
+}
+
+html[data-theme='dark'] .footer {
+  border-top: 1px solid var(--ifm-toc-border-color);
+  --ifm-footer-background-color: #151515;
+}
+
+.theme-doc-sidebar-item-link-level-2 {
+  font-size: 14px;
+}
