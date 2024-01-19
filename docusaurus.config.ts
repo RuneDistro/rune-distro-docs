@@ -101,12 +101,23 @@ const config: Config = {
               label: 'Introdução',
               to: '/',
             },
+            {
+              label: 'Requisitos Funcionais',
+              to: '/system-requirements/functional-requirements',
+            },
+            {
+              label: 'Requisitos Não Funcionais',
+              to: '/system-requirements/non-functional-requirements',
+            },
+            {
+              label: 'Componentes com React',
+              to: '/react-components',
+            },
           ],
         },
         {
           title: 'Comunidade',
           items: [
-
             {
               label: 'Twitter - X',
               href: 'https://twitter.com/pietrorhyan2',
