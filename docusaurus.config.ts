@@ -29,6 +29,7 @@ const config: Config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
+
   plugins: [
     async function myPlugin(context, options) {
       return {
@@ -61,6 +62,10 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
+    colorMode: {
+      disableSwitch: false,
+      respectPrefersColorScheme: true,
+    },
     image: 'img/social-card.png',
     navbar: {
       title: 'Rune Distro',
@@ -76,7 +81,7 @@ const config: Config = {
           label: 'Documentação',
         },
         {
-          href: "/test",
+          to: "/test",
           label: "Página Teste",
         },
         {
