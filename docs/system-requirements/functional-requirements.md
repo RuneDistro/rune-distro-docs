@@ -7,29 +7,14 @@ slug: /system-requirements/functional-requirements
 
 # Requisitos Funcionais
 
-# <font color="red"># APENAS EXEMPLOS.</font>
-
-| # | Requisito                           | Descrição                                                                                                     |
-|---|-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| 1 | **Cadastro de Artistas:**            | O sistema deve permitir que novos artistas se cadastrem fornecendo informações como nome, e-mail, senha e detalhes do perfil artístico. |
-| 2 | **Autenticação:**                   | Artistas registrados devem ser capazes de fazer login no sistema usando suas credenciais.                      |
-| 3 | **Recuperação de Senha:**           | Implementação de um processo para recuperação de senha, permitindo que artistas redefinam suas senhas através de um e-mail de recuperação. |
-| 4 | **Perfil do Artista:**              | O sistema deve permitir que os artistas atualizem e visualizem informações do perfil, como biografia, foto, links para redes sociais, etc. |
-| 5 | **Catálogo de Obras:**               | Os artistas devem poder adicionar e gerenciar suas obras no sistema, incluindo uploads de arquivos, descrições e categorizações. |
-| 6 | **Busca e Filtragem de Obras:**      | Os usuários devem poder buscar e filtrar obras com base em diferentes critérios, como gênero, estilo, etc.      |
-| 7 | **Compra de Obras:**                | Os usuários devem poder adquirir obras digitais, adicionando ao carrinho e finalizando a compra de forma segura. |
-| 8 | **Relatórios de Desempenho:**       | Implementação de relatórios que fornecem estatísticas sobre o desempenho das obras, como número de downloads, visualizações e vendas. |
-| 9 | **Integração com Rede Social para Artistas:** | Conexão com uma rede social dedicada a artistas, permitindo que compartilhem suas obras, interajam com outros artistas e promovam seu trabalho. |
-|10 | **Sistema de Mensagens entre Artistas:** | Um sistema de mensagens para facilitar a comunicação entre os artistas dentro da plataforma. |
-|11 | **Feedback do Usuário:**           | Implementação de um sistema de feedback para que usuários possam avaliar obras, proporcionando uma interação mais rica. |
-|12 | **Notificações:**                   | Os artistas devem receber notificações sobre atividades relevantes, como novas vendas, mensagens recebidas e interações em suas obras. |
-|13 | **Controle de Direitos Autorais:**  | Um mecanismo para os artistas gerenciarem os direitos autorais de suas obras, incluindo opções de licenciamento. |
-|14 | **Histórico de Transações:**        | Os artistas devem poder visualizar um histórico detalhado de suas transações, incluindo vendas e downloads.      |
-|15 | **Segurança de Pagamentos:**        | Implementação de medidas de segurança robustas para proteger as transações financeiras dos artistas e dos usuários. |
-|16 | **Personalização de Página de Perfil:** | Permitir que os artistas personalizem a aparência de suas páginas de perfil para refletir sua identidade artística. |
-|17 | **Análise de Tendências de Mercado:** | Ferramentas analíticas para ajudar os artistas a compreender as tendências do mercado e ajustar suas estratégias de distribuição. |
-|18 | **Compatibilidade com Múltiplos Formatos de Arquivo:** | Suporte para uma variedade de formatos de arquivo para as obras, garantindo flexibilidade na distribuição. |
-|19 | **Avaliação e Classificação de Obras:** | Permitir que os usuários avaliem e classifiquem as obras, proporcionando feedback valioso para os artistas. |
-|20 | **API para Desenvolvedores:**       | Disponibilizar uma API para permitir integrações de terceiros e o desenvolvimento de aplicativos adicionais. |
-
+| Nº | Requisito | Prioridade | Descrição | Ações |
+|----|:-----------:|:------------:|:-----------:|:-------:|
+| 1  | Botão de Login | [ESSENCIAL] | Adicionar um botão que redireciona o usuário para a página de login. | Ao clicar no botão de login, o usuário será redirecionado para a página correspondente. |
+| 2  | Botão de Registro | [ESSENCIAL] | Incluir um botão que redireciona o usuário para a página de registro. | Ao clicar no botão de registro, o usuário será redirecionado para a página correspondente. |
+| 3  | Botão "RUNE DISTRO" | [IMPORTANTE] | Criar um botão que leva o usuário para a landing page do "RUNE DISTRO". | Ao clicar no botão "RUNE DISTRO", o usuário será direcionado para a landing page associada. |
+| 4  | Botão de Idioma | [IMPORTANTE] | Implementar um botão de idioma que permita ao usuário escolher entre Português (PT-BR) e Inglês (EN). | Ao clicar no botão de idioma, o usuário pode alternar entre as opções disponíveis. O conteúdo da página será exibido na língua selecionada pelo usuário. |
+| 5  | Apresentar Dsp's | [IMPORTANTE] | Exibir informações sobre Dsp's, apresentando quais são e suas vantagens | (Ações não fornecidas) |
+| 6  | Mostrar Planos | [DESEJÁVEL] | Redirecionar para outra página onde é apresentada a diferença entre os planos de maneira mais específica. Preferência por ser mais descritivo ao invés de visual (Ex visual> https://dittomusic.com/en/pricing) | (Ações não fornecidas) |
+| 7  | Mostrar Networking | [ESSENCIAL] | Exibir informações sobre Networking, como recomendações de produtores e artistas que atuam com o mesmo gênero, na mesma região, etc. | (Ações não fornecidas) |
+| 8  | Área Aplicativo | [IMPORTANTE] | Exibir informações sobre a Área do Aplicativo, apresentando telas, funcionalidades, vantagens e um botão redirecionando para plataformas de download | (Ações não fornecidas) |
 
