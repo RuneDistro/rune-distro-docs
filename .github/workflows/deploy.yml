@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages
+name: (main) push to external repository
 
 on:
   push:
@@ -10,9 +10,10 @@ permissions:
 
 jobs:
   deploy:
-    name: Deploy to GitHub Pages
+    name: (main) push to external repositorys
     runs-on: ubuntu-latest
     steps:
+      - name: checkout repository
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
         with:
@@ -24,10 +25,15 @@ jobs:
       - name: Build website
         run: npm run build
 
-      - name: Deploy to GitHub Pages
+      - name: push to external repository
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./build
-          user_name: github-actions[bot]
-          user_email: 41898282+github-actions[bot]@users.noreply.github.com
+          deploy_key: ${{ secrets.SSH_DEPLOY_KEY }}
+          publish_dir: .
+          external_repository: PietroRhyan/destination-rune-docs
+          publish_branch: main
+          allow_empty_commmit: true
+          # github_token: ${{ secrets.GITHUB_TOKEN }}
+          # publish_dir: ./build
+          # user_name: github-actions[bot]
+          # user_email: 41898282+github-actions[bot]@users.noreply.github.com
