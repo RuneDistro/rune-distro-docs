@@ -28,7 +28,7 @@ jobs:
       - name: push to external repository
         uses: peaceiris/actions-gh-pages@v3
         with:
-          deploy_key: ${{ secrets.SSH_DEPLOY_KEYS }}
+          github_token: ${{ secrets.SSH_DEPLOY_KEYS }}
           publish_dir: .
           external_repository: PietroRhyan/destination-rune-docs
           publish_branch: main
