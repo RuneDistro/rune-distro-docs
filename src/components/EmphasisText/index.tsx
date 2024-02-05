@@ -6,9 +6,9 @@ const container = tv({
   base: "w-full my-4 px-3 pt-3 pb-1 rounded-lg outline outline-1",
   variants: {
     contentStyle: {
-      "tool-tip": "bg-dark-blue outline-blue",
-      "good-to-know": "bg-dark-green outline-green",
-      "warning": "bg-dark-red outline-red",
+      "tool-tip": "text-blue bg-light-blue dark:bg-dark-blue outline-blue",
+      "good-to-know": "text-green bg-light-green dark:bg-dark-green outline-green",
+      "warning": "text-red bg-light-red dark:bg-dark-red outline-red",
     },
   },
   defaultVariants: {
@@ -17,7 +17,7 @@ const container = tv({
 })
 
 const icon = tv({
-  base: "w-fit flex items-start justify-center m-0 p-1 rounded-full bg-white bg-opacity-10",
+  base: "w-fit flex items-start justify-center m-0 p-1 rounded-full dark:bg-white dark:bg-opacity-10",
   variants: {
     contentStyle: {
       "tool-tip": "text-blue",
