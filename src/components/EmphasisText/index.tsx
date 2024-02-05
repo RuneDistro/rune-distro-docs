@@ -6,9 +6,9 @@ const container = tv({
   base: "w-full my-4 px-3 pt-3 pb-1 rounded-lg outline outline-1",
   variants: {
     contentStyle: {
-      "tool-tip": "text-blue bg-light-blue dark:bg-dark-blue outline-blue",
-      "good-to-know": "text-green bg-light-green dark:bg-dark-green outline-green",
-      "warning": "text-red bg-light-red dark:bg-dark-red outline-red",
+      "tool-tip": "text-blue-text dark:text-white bg-light-blue dark:bg-dark-blue outline-blue",
+      "good-to-know": "text-green-text dark:text-white bg-light-green dark:bg-dark-green outline-green",
+      "warning": "text-red-text dark:text-white bg-light-red dark:bg-dark-red outline-red",
     },
   },
   defaultVariants: {
