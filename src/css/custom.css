@@ -84,3 +84,9 @@ html[data-theme='dark'] .footer {
 .theme-doc-sidebar-item-link-level-2 {
   font-size: 14px;
 }
+
+/* Normal styles */
+
+.reset {
+  revert: true
+}
