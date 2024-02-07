@@ -57,12 +57,12 @@ Após importado, só usá-lo da forma convencional, abrindo sua tag e setando, c
 
 Neste caso, estamos usando o componente de nome _EmphasisText_, que possui três propriedades:
 
-- `contentStyle`: Define o tipo de estilazação do contéudo. Existem três tipos: _tool-tip_, _good-to-know_ e _warning_;
+- `contentStyle`: Define o tipo de estilização do contéudo. Existem três tipos: _tool-tip_, _good-to-know_ e _warning_;
 - `description`: Descrição do contéudo;
 - `key`: Propriedade opcional, define uma chave única para cada componente de mesmo nome. Interessante colocá-lo quando
 tiver mais de um componente de mesmo nome no mesmo arquivo.
 
-Este componente foi criado no intuíto de definir, de forma enfática, alguns pontos que podem ser interessantes serem
+Este componente foi criado no intuito de definir, de forma enfática, alguns pontos que podem ser interessantes de serem
 mostrados. Como dicas, curiosidades e avisos.
 
 A importação do componente acima resulta no seguinte:
@@ -74,14 +74,13 @@ A importação do componente acima resulta no seguinte:
 Basicamente, é isto, não há muito segredo em relação a construção padrão de componentes React, apenas uma atenção na
 hora de fazer sua importação.
 
-Sempre que houver algum trecho de código/ texto que se repete muito (mais de duas vezes), é interessante e considerado
+Sempre que houver algum trecho de código/ texto que se repita muito (mais de duas vezes), é interessante e considerado
 boa prática realizar sua refatoração e transformá-lo em um componente reutilizável.
 
 <EmphasisText 
   contentStyle="warning" 
   description="
     No Docussauros não é permitido a criação de um componente dentro de outro componente, prática que é muito comum
-    no mundo React. Ou seja, é muito comum ver componentes dentro de outros componentes, aumentando sua legilibilidade
-    e manutenção, contudo, no Docussauros esta feature é limitada.
+    no mundo React.
   " 
 />
